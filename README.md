@@ -1,14 +1,14 @@
 # covid_data
-#My Work on Turkish COVID-19 Data
+# My Work on Turkish COVID-19 Data
 This repo is dedicated for my work on Turkish COVID-19 data, that is placed on the website https://covid19.saglik.gov.tr/.
 
-##covid_check.py
+## covid_check.py
 This is the python web scrapper. It fetches the daily data and outputs in the format to be placed directly into covid_tr.txt
 
-##covid.r
+## covid.r
 This is the basic R file for visualizing the data.
 
-##covid_tr.txt
+## covid_tr.txt
 This is the actual data, tab-seperated text file, with the format:
 date: d.mm.yyyy date of date
 conf_new: confirmed cases for the current day
