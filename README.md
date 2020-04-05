@@ -10,14 +10,14 @@ This is the basic R file for visualizing the data.
 
 ## covid_tr.txt
 This is the actual data, tab-seperated text file, with the format:
-date: d.mm.yyyy date of date
-conf_new: confirmed cases for the current day
-conf_total: confirmed cases total
-deaths_new: deaths for the current day
-deaths_total: deaths total
-rec_new: recovered patients for the current day
-rec_total: recovered patients total
-intube_total: intubated patients for the current day
-severe_total: severe patients for the current day, other than intubated
-tests_new: tested patients for the current day
-tests_total: tested patients total
+* date: d.mm.yyyy date of date
+* conf_new: confirmed cases for the current day
+* conf_total: confirmed cases total
+* deaths_new: deaths for the current day
+* deaths_total: deaths total
+* rec_new: recovered patients for the current day
+* rec_total: recovered patients total
+* intube_total: intubated patients for the current day
+* severe_total: severe patients for the current day, other than intubated
+* tests_new: tested patients for the current day
+* tests_total: tested patients total
