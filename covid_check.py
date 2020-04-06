@@ -38,6 +38,18 @@ for k, v in mapping:
     date = date.replace(k, v)
 
 #prepare the meta data mapping for the bindings
+tests_dict = {\
+'TOPLAM TEST SAYISI':'tests_total',\
+'TOPLAM VAKA SAYISI':'conf_total',\
+'TOPLAM VEFAT SAYISI':'deaths_total',\
+'TOPLAM YOĞUN BAKIM HASTA SAYISI':'severe_total',\
+'TOPLAM ENTUBE HASTA SAYISI':'intube_total',\
+'TOPLAM İYİLEŞEN HASTA SAYISI':'rec_total',\
+'BUGÜNKÜ TEST SAYISI':'tests_new',\
+'BUGÜNKÜ VAKA SAYISI':'conf_new',\
+'BUGÜNKÜ VEFAT SAYISI':'deaths_new',\
+'BUGÜNKÜ İYİLEŞEN SAYISI':'rec_new'\
+}
 mapping2 = [\
 ('TOPLAM TEST SAYISI','tests_total'),\
 ('TOPLAM VAKA SAYISI','conf_total'),\
@@ -70,7 +82,7 @@ data = {\
 data['date'] = date
 
 for item in items:
-    #the data in placed inside two span tags, first->name, second->value
+    #the data is placed inside two span tags, first->name, second->value
     spans = item.find_all('span')
 
     #extract the name, strip the new line chars (<br>), replace all excess whitespaces with single whitespace
