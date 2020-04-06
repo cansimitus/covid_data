@@ -18,24 +18,21 @@ soup = BeautifulSoup(page.content.decode('utf-8', 'ignore'), 'html.parser')
 #now, the real thing. we look for a div class, and we extract all the items inside it.
 items = soup.find('div', {"class":"corona-bg"}).find_all('li', {"class": re.compile("d-flex justify-content-between baslik-k*")})
 #date is a seperate element on its own, we extract it, format it accordingly, i.e., d.mm.yyyy
-
-date = ".".join(i.text for i in soup.find('div', {"class":"takvim text-center"}).find_all('p'))
-mapping = [\
-('OCAK', '01'),\
-('ŞUBAT', '02'),\
-('MART', '03'),\
-('NİSAN', '04'),\
-('MAYIS', '05'),\
-('HAZİRAN', '06'),\
-('TEMMUZ', '07'),\
-('AĞUSTOS', '08'),\
-('EYLÜL', '09'),\
-('EKİM', '10'),\
-('KASIM', '11'),\
-('ARALIK', '12')\
-]
-for k, v in mapping:
-    date = date.replace(k, v)
+date_dict = {\
+'OCAK':'01',\
+'ŞUBAT':'02',\
+'MART':'03',\
+'NİSAN':'04',\
+'MAYIS':'05',\
+'HAZİRAN':'06',\
+'TEMMUZ':'07',\
+'AĞUSTOS':'08',\
+'EYLÜL':'09',\
+'EKİM':'10',\
+'KASIM':'11',\
+'ARALIK':'12'\
+}
+date = ".".join(date_dict.get(i.text,i.text) for i in soup.find('div', {"class":"takvim text-center"}).find_all('p'))
 
 #prepare the meta data mapping for the bindings
 tests_dict = {\
@@ -50,18 +47,6 @@ tests_dict = {\
 'BUGÜNKÜ VEFAT SAYISI':'deaths_new',\
 'BUGÜNKÜ İYİLEŞEN SAYISI':'rec_new'\
 }
-mapping2 = [\
-('TOPLAM TEST SAYISI','tests_total'),\
-('TOPLAM VAKA SAYISI','conf_total'),\
-('TOPLAM VEFAT SAYISI','deaths_total'),\
-('TOPLAM YOĞUN BAKIM HASTA SAYISI','severe_total'),\
-('TOPLAM ENTUBE HASTA SAYISI','intube_total'),\
-('TOPLAM İYİLEŞEN HASTA SAYISI','rec_total'),\
-('BUGÜNKÜ TEST SAYISI','tests_new'),\
-('BUGÜNKÜ VAKA SAYISI', 'conf_new'),\
-('BUGÜNKÜ VEFAT SAYISI','deaths_new'),\
-('BUGÜNKÜ İYİLEŞEN SAYISI','rec_new')\
-]
 
 #prepare the dictionary for the data
 data = {\
@@ -86,11 +71,7 @@ for item in items:
     spans = item.find_all('span')
 
     #extract the name, strip the new line chars (<br>), replace all excess whitespaces with single whitespace
-    key = re.sub(' +', ' ',spans[0].text.replace('\n', ' ').replace('\r', '').strip())
-
-    #now, map the turkish name into meta data
-    for k, v in mapping2:
-        key = key.replace(k, v)
+    key = tests_dict[re.sub(' +', ' ',spans[0].text.replace('\n', ' ').replace('\r', '').strip())]
 
     #extract the value, place the number without any digit formatting
     value = spans[1].text.strip().replace('.','')
