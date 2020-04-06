@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+__pycache__/covid_check.cpython-37.pyc
+*.Rproj
