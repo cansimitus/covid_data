@@ -21,3 +21,6 @@ This is the actual data, tab-seperated text file, with the format:
 * severe_total: severe patients for the current day, other than intubated
 * tests_new: tested patients for the current day
 * tests_total: tested patients total
+
+## update_profile_img.py
+This code updates the profile picture with the current number of confirmed cases and deaths.
