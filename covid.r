@@ -18,3 +18,4 @@ with(df, plot(date, tests_total, xlab="", ylab="", type = "b", xaxt="n", yaxt="n
 legend("topleft",
        legend=c("Deaths#","Cases#", "Recovered#","Intube#","Severe#","Test#"),
        lty=c(0,0,0,0,0,0), pch=c(1,1,1,1,1,1), col=c("red3", "black", "green","cyan","blue","yellow"))
+

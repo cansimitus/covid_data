@@ -1,13 +1,15 @@
 from PIL import Image, ImageFont, ImageDraw
 import locale
+import re
 import covid_check
 
 #load the daily data from web scrapper
 data = covid_check.daily_data()
 
 #Confirmed Cases and Deaths are written on top of my profile image
-text1 = data['conf_total']
-text2 = data['deaths_total']
+#1000s seperated by "."
+text1 = re.sub(r'(?<!^)(?=(\d{3})+$)', r'.',data['conf_total'])
+text2 = re.sub(r'(?<!^)(?=(\d{3})+$)', r'.',data['deaths_total'])
 
 fontsize = 90
 fillcolor1 = "white"
@@ -17,7 +19,7 @@ shadowcolor2 = "red"
 font = ImageFont.truetype("Impact.ttf", fontsize)
 img = Image.open("profile_img.png")
 
-#width, height = img.size
+width, height = img.size
 #print(width, height)
 
 draw = ImageDraw.Draw(img)
@@ -28,7 +30,7 @@ draw = ImageDraw.Draw(img)
 (a,b,fwidth2,fheight2) = font.getmask(text2).getbbox()
 
 #find the initial coordinated by opening the image in GIMP and record.
-x = 150
+x = 143
 y = 160
 
 #now, second line is center aligned wrt width and 4 pixel under the first.
@@ -42,7 +44,7 @@ draw.text((x2, y2), text2, font=font, fill=fillcolor2, stroke_fill=shadowcolor2,
 #prepare for cropping
 left = 135
 top = 110
-w = 250
+w = 260
 
 img_cropped = img.crop((left, top, left+w, top+w))
 
