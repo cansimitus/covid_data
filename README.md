@@ -24,3 +24,9 @@ This is the actual data, tab-seperated text file, with the format:
 
 ## update_profile_img.py
 This code updates the profile picture with the current number of confirmed cases and deaths.
+
+## dependencies
+Dependencies for Python 3.8.
+
+## env
+Creating and activating the environment for Anaconda.
