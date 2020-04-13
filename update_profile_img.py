@@ -11,7 +11,7 @@ data = covid_check.daily_data()
 text1 = re.sub(r'(?<!^)(?=(\d{3})+$)', r'.',data['conf_total'])
 text2 = re.sub(r'(?<!^)(?=(\d{3})+$)', r'.',data['deaths_total'])
 
-fontsize = 90
+fontsize = 80
 fillcolor1 = "white"
 shadowcolor1 = "black"
 fillcolor2 = "white"
@@ -42,7 +42,7 @@ draw.text((x, y), text1, font=font, fill=fillcolor1, stroke_fill=shadowcolor1, s
 draw.text((x2, y2), text2, font=font, fill=fillcolor2, stroke_fill=shadowcolor2, stroke_width=2)
 
 #prepare for cropping
-left = 135
+left = 125
 top = 110
 w = 260
 
