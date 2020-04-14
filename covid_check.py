@@ -63,6 +63,8 @@ def daily_data():
     'conf_new':'',\
     'deaths_new':'',\
     'rec_new':'',\
+    'conf_death_rate':'',\
+    'active':'',\
     }
 
     #put the date
@@ -80,6 +82,10 @@ def daily_data():
 
         #push the value to data
         data[key] = value
+
+    data['conf_death_rate'] = str(format(int(data['deaths_total']) / int(data['conf_total'])*100,'.2f'))+"%"
+    data['active'] = int(data['conf_total']) - (int(data['deaths_total']) + int(data['rec_total']))
+
     return data
 
 def main():
@@ -97,7 +103,9 @@ def main():
     data['severe_total'],\
     data['tests_new'],\
     data['tests_total'],\
-    sep='\t', end='\n')
+    data['conf_death_rate'],\
+    data['active'],\
+    sep=',', end='\n')
 
 if __name__ == "__main__":
     main()
