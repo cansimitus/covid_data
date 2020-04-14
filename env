@@ -1,4 +1,0 @@
-conda update --all
-conda create -n py38 python=3.8 anaconda
-conda activate py38
-
