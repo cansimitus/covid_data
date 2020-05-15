@@ -497,3 +497,249 @@ ChromeProfile/CertificateRevocation/5819/crl-set
 ChromeProfile/CertificateRevocation/5819/_metadata/verified_contents.json
 ChromeProfile/BrowserMetrics-spare.pma
 ChromeProfile/.metadata_never_index
+.Rhistory
+.Rhistory
+ChromeProfile/CertificateRevocation/5822/_metadata/verified_contents.json
+ChromeProfile/CertificateRevocation/5822/crl-set
+ChromeProfile/CertificateRevocation/5822/LICENSE
+ChromeProfile/CertificateRevocation/5822/manifest.fingerprint
+ChromeProfile/CertificateRevocation/5822/manifest.json
+ChromeProfile/CertificateRevocation/5823/_metadata/verified_contents.json
+ChromeProfile/CertificateRevocation/5823/crl-set
+ChromeProfile/CertificateRevocation/5823/LICENSE
+ChromeProfile/CertificateRevocation/5823/manifest.fingerprint
+ChromeProfile/CertificateRevocation/5823/manifest.json
+ChromeProfile/CertificateRevocation/5824/_metadata/verified_contents.json
+ChromeProfile/CertificateRevocation/5824/crl-set
+ChromeProfile/CertificateRevocation/5824/LICENSE
+ChromeProfile/CertificateRevocation/5824/manifest.fingerprint
+ChromeProfile/CertificateRevocation/5824/manifest.json
+ChromeProfile/chrome_shutdown_ms.txt
+ChromeProfile/Default/Cache/032ec36cf28a6454_0
+ChromeProfile/Default/Cache/068ebfc954ad2196_0
+ChromeProfile/Default/Cache/09c6ebd11c4e7d9c_0
+ChromeProfile/Default/Cache/09fe37de34203cee_0
+ChromeProfile/Default/Cache/0a75f90b524c6ed5_0
+ChromeProfile/Default/Cache/0b2a88bd6c8b11a8_0
+ChromeProfile/Default/Cache/0c92c6a422aec0eb_0
+ChromeProfile/Default/Cache/0fe23abd999fe696_0
+ChromeProfile/Default/Cache/113a4f73eb38c817_0
+ChromeProfile/Default/Cache/1258a16595116f48_0
+ChromeProfile/Default/Cache/14923fa3f59ebf2d_0
+ChromeProfile/Default/Cache/15487f71c8f3d48c_0
+ChromeProfile/Default/Cache/1712f0c09a9c8906_0
+ChromeProfile/Default/Cache/196c801a40b67d96_0
+ChromeProfile/Default/Cache/19c90406a49012e8_0
+ChromeProfile/Default/Cache/19c9f94cca603871_0
+ChromeProfile/Default/Cache/1cfc5c5c72c9a43f_0
+ChromeProfile/Default/Cache/202030cf64b988a1_0
+ChromeProfile/Default/Cache/23b27fec79baa667_0
+ChromeProfile/Default/Cache/24285fc8663b04d6_0
+ChromeProfile/Default/Cache/27f37a4c85c2c7c8_0
+ChromeProfile/Default/Cache/28feda25731d8b19_0
+ChromeProfile/Default/Cache/2940195bd9870d6e_0
+ChromeProfile/Default/Cache/2bef0ded564b47fe_0
+ChromeProfile/Default/Cache/30315fd1ada90dd1_0
+ChromeProfile/Default/Cache/32c62384784122f6_0
+ChromeProfile/Default/Cache/3365bef2a47dec5b_0
+ChromeProfile/Default/Cache/359c114dde6cffc5_0
+ChromeProfile/Default/Cache/3690691877d05577_0
+ChromeProfile/Default/Cache/36ef3bde7ce8ea2a_0
+ChromeProfile/Default/Cache/36f7d1b5cef0d90c_0
+ChromeProfile/Default/Cache/38db0f46b2b94dce_0
+ChromeProfile/Default/Cache/390a62a810c33b74_0
+ChromeProfile/Default/Cache/3bca5df153da3d79_0
+ChromeProfile/Default/Cache/3dcaf18f354198dd_0
+ChromeProfile/Default/Cache/3fc8169528554b2f_0
+ChromeProfile/Default/Cache/3fcb67e0dbf32135_0
+ChromeProfile/Default/Cache/429e1e405dfd06c0_0
+ChromeProfile/Default/Cache/433efbe07e2c1b1e_0
+ChromeProfile/Default/Cache/4424bcb51eb231d1_0
+ChromeProfile/Default/Cache/4599e3fe73189405_0
+ChromeProfile/Default/Cache/4694dc0c0acf2800_0
+ChromeProfile/Default/Cache/49423e3eb1377b54_0
+ChromeProfile/Default/Cache/4c5f8e393193fa48_0
+ChromeProfile/Default/Cache/4d52da0f9701cc29_0
+ChromeProfile/Default/Cache/4d6a39441a12f10d_0
+ChromeProfile/Default/Cache/4dd6dbcf45fee695_0
+ChromeProfile/Default/Cache/4e9f0a5e815319ee_0
+ChromeProfile/Default/Cache/4f4aaa55b7f92dc4_0
+ChromeProfile/Default/Cache/4fae2d1e37edebb5_0
+ChromeProfile/Default/Cache/52f8544faf8e3f09_0
+ChromeProfile/Default/Cache/5456b7f155dcbde6_0
+ChromeProfile/Default/Cache/54ac61dda982e9bb_0
+ChromeProfile/Default/Cache/5e4471965f7cdaec_0
+ChromeProfile/Default/Cache/5fe13dafcda137a9_0
+ChromeProfile/Default/Cache/61e13c5842f99971_0
+ChromeProfile/Default/Cache/642a72e7eef6ee68_0
+ChromeProfile/Default/Cache/6b50420bee2bce07_0
+ChromeProfile/Default/Cache/70a56bda6488861d_0
+ChromeProfile/Default/Cache/771035abe48e7a0f_0
+ChromeProfile/Default/Cache/77c9a1c1c2a0f8c0_0
+ChromeProfile/Default/Cache/7a6b368ec0bb7f5f_0
+ChromeProfile/Default/Cache/7a9d154c8c2153b2_0
+ChromeProfile/Default/Cache/7c2580f4cc091327_0
+ChromeProfile/Default/Cache/7f32dfcc14261492_0
+ChromeProfile/Default/Cache/8389c2d26456be73_0
+ChromeProfile/Default/Cache/83ca9c4a325fd58a_0
+ChromeProfile/Default/Cache/84388a0e184f6802_0
+ChromeProfile/Default/Cache/856f90774f2f37e1_0
+ChromeProfile/Default/Cache/8ae0590583735035_0
+ChromeProfile/Default/Cache/8f126e1640d5dd76_0
+ChromeProfile/Default/Cache/9034d0c4b726cc73_0
+ChromeProfile/Default/Cache/90fcc01d882d9e5f_0
+ChromeProfile/Default/Cache/91d00e101032197a_0
+ChromeProfile/Default/Cache/92df9f41fe7f85cd_0
+ChromeProfile/Default/Cache/93a98e8c1440f39b_0
+ChromeProfile/Default/Cache/9714538ac7e4c4c9_0
+ChromeProfile/Default/Cache/9752d611af8bd5b9_0
+ChromeProfile/Default/Cache/9d3f3f4412980f6c_0
+ChromeProfile/Default/Cache/a21850d8219fc777_0
+ChromeProfile/Default/Cache/a33ff526963ac8c5_0
+ChromeProfile/Default/Cache/a3679957da10b068_0
+ChromeProfile/Default/Cache/a3679957da10b068_s
+ChromeProfile/Default/Cache/a496cac9f4654410_0
+ChromeProfile/Default/Cache/a49929bbbf024c9b_0
+ChromeProfile/Default/Cache/a64783044bb5e06c_0
+ChromeProfile/Default/Cache/a6be8749349a63b1_0
+ChromeProfile/Default/Cache/a80829a13a10b176_0
+ChromeProfile/Default/Cache/a999ba29e9314fea_0
+ChromeProfile/Default/Cache/aa0ff4f81e643730_0
+ChromeProfile/Default/Cache/aad20b6b108405d0_0
+ChromeProfile/Default/Cache/aca1999ec6f29893_0
+ChromeProfile/Default/Cache/ad50ca4dec7f5752_0
+ChromeProfile/Default/Cache/af86aed9125bed61_0
+ChromeProfile/Default/Cache/b1225904a6d091ff_0
+ChromeProfile/Default/Cache/b2d3712953322d28_0
+ChromeProfile/Default/Cache/b64129b2dffc86ba_0
+ChromeProfile/Default/Cache/b72802b63440d946_0
+ChromeProfile/Default/Cache/b86843463eac9c99_0
+ChromeProfile/Default/Cache/bc08972e99f716b2_0
+ChromeProfile/Default/Cache/bcd9bf2f740347df_0
+ChromeProfile/Default/Cache/bd7978762a7adf89_0
+ChromeProfile/Default/Cache/beaa9041404a29b2_0
+ChromeProfile/Default/Cache/c2a0b834b057b6c8_0
+ChromeProfile/Default/Cache/c4fd68ddd260a613_0
+ChromeProfile/Default/Cache/c718e1ce3e0da914_0
+ChromeProfile/Default/Cache/cbf8730b3a33abd6_0
+ChromeProfile/Default/Cache/d000b58560e1bee4_0
+ChromeProfile/Default/Cache/d22f730c0a49c030_0
+ChromeProfile/Default/Cache/dabfa91b5ef7268d_0
+ChromeProfile/Default/Cache/dbdcaf174043695b_0
+ChromeProfile/Default/Cache/dc8e80137177f70d_0
+ChromeProfile/Default/Cache/de4a15dd7d46c515_0
+ChromeProfile/Default/Cache/dfb70c73d6faa42a_0
+ChromeProfile/Default/Cache/e03110d8123f3f0e_0
+ChromeProfile/Default/Cache/e03459ab482fda54_0
+ChromeProfile/Default/Cache/e0c88027550eba85_0
+ChromeProfile/Default/Cache/e19c8dd0122a385d_0
+ChromeProfile/Default/Cache/e1ca9f9781f28171_0
+ChromeProfile/Default/Cache/ee3c159ea3c5d581_0
+ChromeProfile/Default/Cache/eed2e4f58a408562_0
+ChromeProfile/Default/Cache/ef6bdd494ae9cba4_0
+ChromeProfile/Default/Cache/f1650c4d937dd3b3_0
+ChromeProfile/Default/Cache/f2563152cc2698e5_0
+ChromeProfile/Default/Cache/f2c8a8a3aa65817e_0
+ChromeProfile/Default/Cache/f4b6a49a7d79009a_0
+ChromeProfile/Default/Cache/f68c70c7705601d0_0
+ChromeProfile/Default/Cache/f7f8f26da1e43da0_0
+ChromeProfile/Default/Cache/fa4df3cec1e734f4_0
+ChromeProfile/Default/Cache/fb1d528f2838c941_0
+ChromeProfile/Default/Cache/fb723df898dafd7f_0
+ChromeProfile/Default/Cache/fba5433dde7d87a2_0
+ChromeProfile/Default/Cache/fd53ba298a72509a_0
+ChromeProfile/Default/Cache/fecc40db63dd4555_0
+ChromeProfile/Default/Code Cache/js/02e5c78bd4327371_0
+ChromeProfile/Default/Code Cache/js/0a9b61793bd0a63b_0
+ChromeProfile/Default/Code Cache/js/13a004f6724d5ee4_0
+ChromeProfile/Default/Code Cache/js/1b01928a3c44c729_0
+ChromeProfile/Default/Code Cache/js/1f9953d60720b45e_0
+ChromeProfile/Default/Code Cache/js/210c39f773c10dac_0
+ChromeProfile/Default/Code Cache/js/27909fbed20c8ce5_0
+ChromeProfile/Default/Code Cache/js/2b134cfa03cc8f7d_0
+ChromeProfile/Default/Code Cache/js/2b3d70f0f9b99ce6_0
+ChromeProfile/Default/Code Cache/js/2e5071bc74a413af_0
+ChromeProfile/Default/Code Cache/js/38f4f965bdf632bb_0
+ChromeProfile/Default/Code Cache/js/3c68767a2be02451_0
+ChromeProfile/Default/Code Cache/js/4208a94f340c39bb_0
+ChromeProfile/Default/Code Cache/js/426ca752d99530b0_0
+ChromeProfile/Default/Code Cache/js/4337e3b92ef6643b_0
+ChromeProfile/Default/Code Cache/js/4bfbd5ceca730242_0
+ChromeProfile/Default/Code Cache/js/51ec0cf915381e27_0
+ChromeProfile/Default/Code Cache/js/5a6ef457459b23e8_0
+ChromeProfile/Default/Code Cache/js/6c51abf62fdd997a_0
+ChromeProfile/Default/Code Cache/js/709ddb101306e684_0
+ChromeProfile/Default/Code Cache/js/725bab70b9521167_0
+ChromeProfile/Default/Code Cache/js/757297126897dd7d_0
+ChromeProfile/Default/Code Cache/js/894dd29f03072efd_0
+ChromeProfile/Default/Code Cache/js/8a9a5c84b99197e3_0
+ChromeProfile/Default/Code Cache/js/8e47c113e4d333a2_0
+ChromeProfile/Default/Code Cache/js/9a7ef93371f53e47_0
+ChromeProfile/Default/Code Cache/js/9f406a5b1fce7b91_0
+ChromeProfile/Default/Code Cache/js/a1d1093f1d7ca1cf_0
+ChromeProfile/Default/Code Cache/js/af9894f9f8118ecd_0
+ChromeProfile/Default/Code Cache/js/b4eb76eae6d101e7_0
+ChromeProfile/Default/Code Cache/js/b7937e389504ecea_0
+ChromeProfile/Default/Code Cache/js/b82a91667377b88c_0
+ChromeProfile/Default/Code Cache/js/baf134829289c159_0
+ChromeProfile/Default/Code Cache/js/bb1b8595777e23c0_0
+ChromeProfile/Default/Code Cache/js/c2736c0a99712d8b_0
+ChromeProfile/Default/Code Cache/js/cc9ddba9a08df39a_0
+ChromeProfile/Default/Code Cache/js/ceebde2f0c7cd3e5_0
+ChromeProfile/Default/Code Cache/js/cf6ef121323e00b8_0
+ChromeProfile/Default/Code Cache/js/d0baecfeec172d5e_0
+ChromeProfile/Default/Code Cache/js/d222f5bc4890e323_0
+ChromeProfile/Default/Code Cache/js/d5aec2affcb3be82_0
+ChromeProfile/Default/Code Cache/js/e30d8fca698574b3_0
+ChromeProfile/Default/Code Cache/js/e441eb2651455d96_0
+ChromeProfile/Default/Code Cache/js/e724dd72560b393a_0
+ChromeProfile/Default/Code Cache/js/f523387bb8132c7e_0
+ChromeProfile/Default/Code Cache/js/f65295f2d93d31ee_0
+ChromeProfile/Default/Code Cache/js/f8f5f6d11b80e0de_0
+ChromeProfile/Default/Code Cache/js/f9f0ac87e313ef92_0
+ChromeProfile/Default/databases/Databases.db
+ChromeProfile/Default/databases/Databases.db-journal
+ChromeProfile/Default/History Provider Cache
+ChromeProfile/Default/IndexedDB/https_tele1.com.tr_0.indexeddb.leveldb/000004.log
+ChromeProfile/Default/IndexedDB/https_tele1.com.tr_0.indexeddb.leveldb/000005.ldb
+ChromeProfile/Default/IndexedDB/https_tele1.com.tr_0.indexeddb.leveldb/CURRENT
+ChromeProfile/Default/IndexedDB/https_tele1.com.tr_0.indexeddb.leveldb/LOCK
+ChromeProfile/Default/IndexedDB/https_tele1.com.tr_0.indexeddb.leveldb/LOG
+ChromeProfile/Default/IndexedDB/https_tele1.com.tr_0.indexeddb.leveldb/MANIFEST-000001
+ChromeProfile/Default/Local Storage/leveldb/000005.ldb
+ChromeProfile/Default/Local Storage/leveldb/000007.ldb
+ChromeProfile/Default/Local Storage/leveldb/000009.ldb
+ChromeProfile/Default/Local Storage/leveldb/000011.ldb
+ChromeProfile/Default/Local Storage/leveldb/000012.log
+ChromeProfile/Default/Local Storage/leveldb/000013.ldb
+ChromeProfile/Default/QuotaManager
+ChromeProfile/Default/QuotaManager-journal
+ChromeProfile/SafetyTips/810/_metadata/verified_contents.json
+ChromeProfile/SafetyTips/810/manifest.fingerprint
+ChromeProfile/SafetyTips/810/manifest.json
+ChromeProfile/SafetyTips/810/safety_tips.pb
+ChromeProfile/SafetyTips/812/_metadata/verified_contents.json
+ChromeProfile/SafetyTips/812/manifest.fingerprint
+ChromeProfile/SafetyTips/812/manifest.json
+ChromeProfile/SafetyTips/812/safety_tips.pb
+ChromeProfile/SafetyTips/815/_metadata/verified_contents.json
+ChromeProfile/SafetyTips/815/manifest.fingerprint
+ChromeProfile/SafetyTips/815/manifest.json
+ChromeProfile/SafetyTips/815/safety_tips.pb
+ChromeProfile/SafetyTips/817/_metadata/verified_contents.json
+ChromeProfile/SafetyTips/817/manifest.fingerprint
+ChromeProfile/SafetyTips/817/manifest.json
+ChromeProfile/SafetyTips/817/safety_tips.pb
+ChromeProfile/SafetyTips/821/_metadata/verified_contents.json
+ChromeProfile/SafetyTips/821/manifest.fingerprint
+ChromeProfile/SafetyTips/821/manifest.json
+ChromeProfile/SafetyTips/821/safety_tips.pb
+ChromeProfile/SafetyTips/824/_metadata/verified_contents.json
+ChromeProfile/SafetyTips/824/manifest.fingerprint
+ChromeProfile/SafetyTips/824/manifest.json
+ChromeProfile/SafetyTips/824/safety_tips.pb
+ChromeProfile/SafetyTips/826/_metadata/verified_contents.json
+ChromeProfile/SafetyTips/826/manifest.fingerprint
+ChromeProfile/SafetyTips/826/manifest.json
+ChromeProfile/SafetyTips/826/safety_tips.pb
+.Rhistory

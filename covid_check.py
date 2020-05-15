@@ -3,8 +3,10 @@
 #since it's a web scrapper, it depends of the structure of the web page heavily.
 import requests
 import re
+import sys
 from bs4 import BeautifulSoup
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
+from datetime import date
 
 def daily_data():
     #disable any warnings about TLS security
@@ -53,16 +55,16 @@ def daily_data():
     #prepare the dictionary for the data
     data = {\
     'date':'',\
-    'tests_total':'',\
-    'conf_total':'',\
-    'deaths_total':'',\
-    'severe_total':'',\
-    'intube_total':'',\
-    'rec_total':'',\
-    'tests_new':'',\
     'conf_new':'',\
+    'conf_total':'',\
     'deaths_new':'',\
+    'deaths_total':'',\
     'rec_new':'',\
+    'rec_total':'',\
+    'intube_total':'',\
+    'severe_total':'',\
+    'tests_new':'',\
+    'tests_total':'',\
     'conf_death_rate':'',\
     'active':'',\
     }
@@ -84,28 +86,71 @@ def daily_data():
         data[key] = value
 
     data['conf_death_rate'] = str(format(int(data['deaths_total']) / int(data['conf_total'])*100,'.2f'))+"%"
-    data['active'] = int(data['conf_total']) - (int(data['deaths_total']) + int(data['rec_total']))
+    data['active'] = str(int(data['conf_total']) - (int(data['deaths_total']) + int(data['rec_total'])))
 
     return data
 
 def main():
-    data = daily_data()
-    #print the contents of data in one line, seperated by tab, ended with EOL
-    print(\
-    data['date'],\
-    data['conf_new'],\
-    data['conf_total'],\
-    data['deaths_new'],\
-    data['deaths_total'],\
-    data['rec_new'],\
-    data['rec_total'],\
-    data['intube_total'],\
-    data['severe_total'],\
-    data['tests_new'],\
-    data['tests_total'],\
-    data['conf_death_rate'],\
-    data['active'],\
-    sep=',', end='\n')
+    today = date.today().strftime("%-d.%m.%Y")
+    with open("covid_tr.csv", "r") as file:
+        first_line = file.readline()
+        for last_line in file:
+            pass
+    data = {\
+    'date':'',\
+    'conf_new':'',\
+    'conf_total':'',\
+    'deaths_new':'',\
+    'deaths_total':'',\
+    'rec_new':'',\
+    'rec_total':'',\
+    'intube_total':'',\
+    'severe_total':'',\
+    'tests_new':'',\
+    'tests_total':'',\
+    'conf_death_rate':'',\
+    'active':'',\
+    }
+    data = dict(zip(list(data.keys()),last_line.rstrip().split(',')))
 
+    if data['date'] == today:
+        print("Already in file")
+        print(\
+        data['date'],\
+        data['conf_new'],\
+        data['conf_total'],\
+        data['deaths_new'],\
+        data['deaths_total'],\
+        data['rec_new'],\
+        data['rec_total'],\
+        data['intube_total'],\
+        data['severe_total'],\
+        data['tests_new'],\
+        data['tests_total'],\
+        data['conf_death_rate'],\
+        data['active'],\
+        sep=',', end='\n')
+        sys.exit()
+
+    data = daily_data()
+    if data['date'] == today:
+    #print the contents of data in one line, seperated by tab, ended with EOL
+        print(\
+        data['date'],\
+        data['conf_new'],\
+        data['conf_total'],\
+        data['deaths_new'],\
+        data['deaths_total'],\
+        data['rec_new'],\
+        data['rec_total'],\
+        data['intube_total'],\
+        data['severe_total'],\
+        data['tests_new'],\
+        data['tests_total'],\
+        data['conf_death_rate'],\
+        data['active'],\
+        sep=',', end='\n')
+    else:
+        print("No new data available")
 if __name__ == "__main__":
     main()
